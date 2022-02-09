@@ -64,8 +64,9 @@ public class hackerRank {
         Scanner scan = new Scanner(System.in);
         String str = null;
         int cnt =0;
-        while((str = scan.nextLine())!= null){
-            System.out.println(++cnt + " str");
+        while(scan.hasNextLine()){
+            str = scan.nextLine();
+            System.out.println(++cnt + " " + str);
         }
 
 
