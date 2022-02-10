@@ -55,7 +55,7 @@ public class hackerRank {
             } catch (Exception e) {
                 System.out.println(sc.next() + " can't be fitted anywhere.");
             }
-
+            sc.close();
 
         }
     }
@@ -68,6 +68,7 @@ public class hackerRank {
             str = scan.nextLine();
             System.out.println(++cnt + " " + str);
         }
+        scan.close();
 
 
     }
