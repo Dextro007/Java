@@ -70,7 +70,7 @@ public class hackerRank {
         }
         scan.close();
 
-
     }
+
 }
 
