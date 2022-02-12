@@ -10,7 +10,7 @@ public class dateTime {
         * So actual month is month-1*/
         date.set(year, month-1, day);
         int numDay = date.get(Calendar.DAY_OF_WEEK);
-        List<String> days = Arrays.asList("SUNDAY", "MODAY", "TUESDAY", "WEDNESDAY",
+        List<String> days = Arrays.asList("SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY",
                 "THURSDAY", "FRIDAY", "SATURDAY");
         return days.get(numDay - 1);
         
